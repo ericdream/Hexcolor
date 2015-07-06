@@ -2,7 +2,7 @@
 //  HexColor_swift.swift
 //  Healthy
 //
-//  Created by develop on 7/1/15.
+//  Created by eric on 7/1/15.
 //  Copyright (c) 2015 Mac Mini. All rights reserved.
 //
 

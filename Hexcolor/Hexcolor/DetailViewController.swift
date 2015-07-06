@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  Hexcolor
 //
-//  Created by develop on 7/6/15.
+//  Created by eric on 7/6/15.
 //  Copyright (c) 2015 develop. All rights reserved.
 //
 
