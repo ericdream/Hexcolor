@@ -15,6 +15,8 @@
 		883DC2F41B4A273700497A30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883DC2F21B4A273700497A30 /* LaunchScreen.xib */; };
 		883DC3001B4A273700497A30 /* HexcolorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883DC2FF1B4A273700497A30 /* HexcolorTests.swift */; };
 		883DC30A1B4A276900497A30 /* HexColor_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883DC3091B4A276900497A30 /* HexColor_swift.swift */; };
+		8856339F1B4B742400908801 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856339E1B4B742400908801 /* TableViewController.swift */; };
+		885633A11B4B782F00908801 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885633A01B4B782F00908801 /* TitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		883DC2FE1B4A273700497A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883DC2FF1B4A273700497A30 /* HexcolorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexcolorTests.swift; sourceTree = "<group>"; };
 		883DC3091B4A276900497A30 /* HexColor_swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColor_swift.swift; sourceTree = "<group>"; };
+		8856339E1B4B742400908801 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		885633A01B4B782F00908801 /* TitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 			children = (
 				883DC2E71B4A273700497A30 /* AppDelegate.swift */,
 				883DC3091B4A276900497A30 /* HexColor_swift.swift */,
+				8856339E1B4B742400908801 /* TableViewController.swift */,
+				885633A01B4B782F00908801 /* TitleCell.swift */,
 				883DC2E91B4A273700497A30 /* MasterViewController.swift */,
 				883DC2EB1B4A273700497A30 /* DetailViewController.swift */,
 				883DC2ED1B4A273700497A30 /* Main.storyboard */,
@@ -218,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885633A11B4B782F00908801 /* TitleCell.swift in Sources */,
 				883DC2EC1B4A273700497A30 /* DetailViewController.swift in Sources */,
 				883DC2EA1B4A273700497A30 /* MasterViewController.swift in Sources */,
 				883DC2E81B4A273700497A30 /* AppDelegate.swift in Sources */,
+				8856339F1B4B742400908801 /* TableViewController.swift in Sources */,
 				883DC30A1B4A276900497A30 /* HexColor_swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +427,7 @@
 				883DC3051B4A273700497A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		883DC3061B4A273700497A30 /* Build configuration list for PBXNativeTarget "HexcolorTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				883DC3081B4A273700497A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
